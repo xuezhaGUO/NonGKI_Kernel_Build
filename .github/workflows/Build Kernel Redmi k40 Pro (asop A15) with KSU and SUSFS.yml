@@ -7,7 +7,7 @@ env:
   PACK_METHOD: "Anykernel3" # Anykernel3 need SOURCE and BRANCH, MKBOOTIMG needn't it.
   KERNELSU_METHOD: "only" # shell, manual and only.
   PATCHES_SOURCE: "xuezhaGUO/NonGKI_Kernel_Build" # [your_name]/[your_patch] -> gooder123/NonGKI_Patcher
-  PATCHES_BRANCH: "xuezhaGUO-patch-1" # [your_branch] -> main
+  PATCHES_BRANCH: "main" # [your_branch] -> main
   HOOK_METHOD: "normal" # manual hook method,can choice vfs and normal.
   PROFILE_NAME: "haydn_aosp_a15.env" # your profile name.
   KERNELSU_SUS_PATCH: "false" # if u need manual susfs patch to kernelsu.
